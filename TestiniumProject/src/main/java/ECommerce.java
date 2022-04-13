@@ -29,8 +29,8 @@ public class ECommerce {
 
     public void login(){
         try {
-            driver.findElement(By.id("L-UserNameField")).sendKeys("ibrhm.cftci@hotmail.com");
-            driver.findElement(By.id("L-PasswordField")).sendKeys("ibocan99");
+            driver.findElement(By.id("L-UserNameField")).sendKeys("***@gmail.com");
+            driver.findElement(By.id("L-PasswordField")).sendKeys("***");
             driver.findElement(By.xpath("//input[@value='Giriş Yap']")).click();
             Thread.sleep(500);
         } catch (InterruptedException e) {
